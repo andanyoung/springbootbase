@@ -11,6 +11,8 @@ public class ResultBean<T> implements Serializable {
 
   public static final int FAIL = 55555;
 
+  public static final int ACCESS_LIMIT_REACHED = 91000; // 访问次数受限
+
   public static final int NO_PERMISSION = 2;
 
   private String msg = "success";
